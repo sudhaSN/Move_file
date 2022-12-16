@@ -8,4 +8,5 @@ list_of_files = os.listdir(from_dir)
 print(list_of_files)
 
 for x in list_of_files:
-    os.path.splitext(x)
+    name, extension = os.path.splitext(file_name)
+    print(name, extension)
